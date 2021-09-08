@@ -6,6 +6,7 @@ import com.springrest.springrest.entities.Course;
 
 public interface CourseService {
 
+	// All the Methods !
 	public List<Course> getCourses();
 	public Course getCourse(Long courseid);
 	public Course addCourse(Course course);
